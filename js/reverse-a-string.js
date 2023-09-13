@@ -1,13 +1,13 @@
 // Using the split(), reverse(), and join() methods:
 
-function reverseString(str) {
-    return str.split('').reverse().join('')
-}
+// function reverseString(str) {
+//     return str.split('').reverse().join('')
+// }
 
-const originalString = 'Hello, world!'
-const reversedString = reverseString(originalString)
+// const originalString = 'Hello, world!'
+// const reversedString = reverseString(originalString)
 
-console.log(reversedString)
+// console.log(reversedString)
 
 // str.split('').reverse().join('')
 
@@ -36,18 +36,18 @@ console.log(reversedString)
 
 // Using a loop:
 
-function reverseString(str) {
-    let reversed = ''
-    for (let i = str.length -1; i >= 0; i--) {
-        reversed += str[i]
-    }
-    return reversed
-}
+// function reverseString(str) {
+//     let reversed = ''
+//     for (let i = str.length -1; i >= 0; i--) {
+//         reversed += str[i]
+//     }
+//     return reversed
+// }
 
-const originalString = 'Hello, world!'
-const reversedString = reverseString(originalString)
+// const originalString = 'Hello, world!'
+// const reversedString = reverseString(originalString)
 
-console.log(reversedString)
+// console.log(reversedString)
 
 
 // iterates backwards through a string
